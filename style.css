@@ -1,0 +1,45 @@
+.modal-window{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-body{
+    width: 600px;
+    height: 400px;
+    margin: 10% auto;
+    background-color: white;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: -8px;
+    left: 587px;
+}
+.coution {
+    height: 175px;
+    display: flex;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none; /* Запрещение выделения для Chrome, Safari и Opera */
+    -moz-user-select: none; /* Запрещение выделения для Firefox */
+    -ms-user-select: none; /* Запрещение выделения для Internet Explorer и Microsoft Edge */
+    user-select: none; /* Запрещение выделения для стандартных браузеров */
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    margin-top: 51px;
+    font-size: 27px;
+}
+
